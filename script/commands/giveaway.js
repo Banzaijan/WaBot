@@ -43,7 +43,7 @@ module.exports.run = async ({ api, event, args, Users, botid }) => {
   const threadID = event.threadID;
   const messageID = event.messageID;
 
-  if (!global.config.operator.includes(senderID) &&
+  if (!global.config.operators.includes(senderID) &&
      (!global.config.GIVEAWAYVIP || !global.config.GIVEAWAYVIP.includes(senderID))) {
     return api.sendMessage("❌ You don't have permission to use this command.", threadID, messageID);
   }
