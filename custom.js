@@ -9,10 +9,10 @@ module.exports = async ({ api, event }) => {
     },
     greetings: {
       status: true,
-      morning: `goodmorning everyone, have a nice day.`,
-      afternoon: `goodafternoon everyone, don't forget to eat your lunch.`,
-      evening: `goodevening everyone, don't forget to eat.`,
-      sleep: `goodnight everyone, time to sleep.`,
+      morning: `Magandang umaga! Gising na ulit para maramdaman mo kung gaano ka kawalang-silbi sa bahay. 😃💸`,
+      afternoon: `Hapon na, gago! Malapit nang matapos ang araw... pero ikaw, malapit nang sumuko. Charot. 😭`,
+      evening: `Magandang gabi! Reminder: kahit gabi na, hindi pa rin siya babalik. Kaya wag ka nang umasa. 💀`,
+      sleep: `Tulog na, mahal… joke lang, hindi ka niya mahal. Kaya magpahinga ka nalang para sa sarili mo. 😢`,
       note: 'greetings every morning, afternoon and evening. the timezone is located in Asia/Manila'
     },
     accpetPending: {
